@@ -1,0 +1,415 @@
+09:21:13.007 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/auth/login", parameters={}
+09:21:13.029 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.UserController#login(LoginRequest)
+09:21:13.031 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.LoginRequest@105cfc4]
+09:21:13.475 [http-nio-4900-exec-10] INFO  c.e.h.s.UserRegisterServiceImple - Login Successfull
+09:21:13.476 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:21:13.477 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.response.LoginResponse@795906f7]
+09:21:13.478 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:21:21.419 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:21:21.421 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:21:21.428 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@6963808c]
+09:21:21.440 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:21:21.440 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:21:21.441 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:22:39.534 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/addRestaurant", parameters={}
+09:22:39.537 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#addRestaurant(RestaurantRequest)
+09:22:39.542 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantRequest@49b50a8b]
+09:22:39.610 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:22:39.611 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.response.RestaurantResponse@6c2ff733]
+09:22:39.612 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:22:41.474 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:22:41.474 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:22:41.475 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@9c9c2ed]
+09:22:41.480 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:22:41.480 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:22:41.481 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:22:41.494 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:22:41.494 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:22:41.502 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:22:41.503 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@23e61371]]
+09:22:41.506 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:22:49.544 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:22:49.545 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:22:49.547 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@69de1bcb]
+09:22:49.553 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:22:49.553 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:22:49.554 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:22:51.432 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:22:51.434 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:22:51.435 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@37fc90e8]
+09:22:51.442 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:22:51.442 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:22:51.442 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:22:51.452 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:22:51.453 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:22:51.463 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:22:51.464 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@6c67e427]]
+09:22:51.465 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:23:32.600 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:23:32.601 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:23:32.605 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@a3619ed]
+09:23:32.611 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:23:32.611 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:23:32.612 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:25:17.467 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/addRestaurant", parameters={}
+09:25:17.469 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#addRestaurant(RestaurantRequest)
+09:25:17.470 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantRequest@4e2e96e5]
+09:25:17.491 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:25:17.491 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.response.RestaurantResponse@766f2930]
+09:25:17.493 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:26:21.033 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/addRestaurant", parameters={}
+09:26:21.034 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#addRestaurant(RestaurantRequest)
+09:26:21.036 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantRequest@4f53b4e3]
+09:26:21.048 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:26:21.049 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.response.RestaurantResponse@24f5dc1b]
+09:26:21.050 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:27:28.336 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/addRestaurant", parameters={}
+09:27:28.336 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#addRestaurant(RestaurantRequest)
+09:27:28.338 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RestaurantRequest@38c0d4e1]
+09:27:28.359 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:27:28.360 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.response.RestaurantResponse@45438cf2]
+09:27:28.361 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:34:13.627 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+09:34:13.636 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+09:34:13.654 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+09:34:21.009 [main] INFO  c.e.h.HexFoodieBackApplication - Starting HexFoodieBackApplication using Java 21.0.1 with PID 14096 (C:\Users\dctmav-anshu\Downloads\hexFoodieBack\hexFoodieBack\target\classes started by dctmav-anshu in C:\Users\dctmav-anshu\Downloads\hexFoodieBack\hexFoodieBack)
+09:34:21.011 [main] DEBUG c.e.h.HexFoodieBackApplication - Running with Spring Boot v3.2.2, Spring v6.1.3
+09:34:21.013 [main] INFO  c.e.h.HexFoodieBackApplication - No active profile set, falling back to 1 default profile: "default"
+09:34:22.584 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+09:34:22.728 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 131 ms. Found 10 JPA repository interfaces.
+09:34:23.246 [main] INFO  c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor - Post-processing PropertySource instances
+09:34:23.297 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+09:34:23.300 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+09:34:23.300 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+09:34:23.300 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+09:34:23.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+09:34:23.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+09:34:23.301 [main] INFO  c.u.j.EncryptablePropertySourceConverter - Converting PropertySource Config resource 'class path resource [application.properties]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+09:34:23.375 [main] INFO  c.u.j.f.DefaultLazyPropertyFilter - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+09:34:23.675 [main] INFO  c.u.j.r.DefaultLazyPropertyResolver - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+09:34:23.679 [main] INFO  c.u.j.d.DefaultLazyPropertyDetector - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+09:34:24.160 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 4900 (http)
+09:34:24.182 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+09:34:24.183 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.18]
+09:34:24.328 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:34:24.329 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3216 ms
+09:34:24.426 [main] INFO  c.u.j.encryptor.DefaultLazyEncryptor - String Encryptor custom Bean not found with name 'jasyptStringEncryptor'. Initializing Default String Encryptor
+09:34:24.443 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.key-obtention-iterations, using default value: 1000
+09:34:24.444 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.pool-size, using default value: 1
+09:34:24.445 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.provider-name, using default value: null
+09:34:24.445 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.provider-class-name, using default value: null
+09:34:24.446 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.salt-generator-classname, using default value: org.jasypt.salt.RandomSaltGenerator
+09:34:24.448 [main] INFO  c.u.j.c.StringEncryptorBuilder - Encryptor config not found for property jasypt.encryptor.string-output-type, using default value: base64
+09:34:24.681 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+09:34:24.785 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.4.1.Final
+09:34:24.847 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+09:34:25.240 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+09:34:25.280 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+09:34:25.773 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b5b53c6
+09:34:25.776 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+09:34:27.563 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09:34:27.732 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+09:34:28.289 [main] DEBUG c.e.h.filter.JwtAuthFilter - Filter 'jwtAuthFilter' configured for use
+09:34:28.369 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+09:34:29.860 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+09:34:30.115 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 37 mappings in 'requestMappingHandlerMapping'
+09:34:30.308 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/swagger-ui*/*swagger-initializer.js, /swagger-ui*/**] in 'resourceHandlerMapping'
+09:34:30.386 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@17e77d57, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f9c9485, org.springframework.security.web.context.SecurityContextHolderFilter@27d40ca5, org.springframework.security.web.header.HeaderWriterFilter@66997c32, org.springframework.web.filter.CorsFilter@5deae5ef, org.springframework.security.web.authentication.logout.LogoutFilter@7560ca1d, com.example.hexFoodieBack.filter.JwtAuthFilter@276eafad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9c53820, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f218b0c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@791ff1b9, org.springframework.security.web.session.SessionManagementFilter@2a03b7d2, org.springframework.security.web.access.ExceptionTranslationFilter@6fd14e7c, org.springframework.security.web.access.intercept.AuthorizationFilter@19323826]
+09:34:30.476 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+09:34:30.540 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+09:34:31.029 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 4900 (http) with context path ''
+09:34:31.046 [main] INFO  c.e.h.HexFoodieBackApplication - Started HexFoodieBackApplication in 10.87 seconds (process running for 11.593)
+09:44:38.126 [http-nio-4900-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+09:44:38.127 [http-nio-4900-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+09:44:38.128 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+09:44:38.128 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+09:44:38.128 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+09:44:38.131 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@29c15c32
+09:44:38.132 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@1cfc616
+09:44:38.132 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+09:44:38.133 [http-nio-4900-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+09:44:38.213 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:44:38.216 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:44:38.218 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:44:38.218 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:44:38.465 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@47a728e0]
+09:44:38.579 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:44:38.580 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@72524bb, com.example.hexFoodieBack.entity.Restaurant@73 (truncated)...]
+09:44:38.587 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:44:38.587 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:44:38.589 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:44:38.600 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:45:07.898 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:45:07.899 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:45:07.901 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@a5f4f4b]
+09:45:07.908 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:45:07.908 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:45:07.909 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:45:09.484 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:45:09.484 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:45:09.485 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@7f056eef]
+09:45:09.491 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:45:09.491 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:45:09.492 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:45:09.501 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:45:09.501 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:45:09.510 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:45:09.510 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@3a52b341, com.example.hexFoodieBack.entity.Restaurant@b (truncated)...]
+09:45:09.512 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:45:35.864 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:45:35.865 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:45:35.875 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:45:35.876 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@4cd7c9b6, com.example.hexFoodieBack.entity.Restaurant@7 (truncated)...]
+09:45:35.877 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:45:43.644 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:45:43.645 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:45:43.658 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:45:43.658 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@3b36c867, com.example.hexFoodieBack.entity.Restaurant@6 (truncated)...]
+09:45:43.660 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:46:00.885 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:46:00.886 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:46:00.896 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:46:00.896 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@1aa2ed74, com.example.hexFoodieBack.entity.Restaurant@1 (truncated)...]
+09:46:00.898 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:46:14.144 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:46:14.145 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:46:14.155 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:46:14.155 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@549b9afe, com.example.hexFoodieBack.entity.Restaurant@3 (truncated)...]
+09:46:14.156 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:46:22.301 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:46:22.301 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:46:22.311 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:46:22.311 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@2f37b4a9, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+09:46:22.312 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:46:36.750 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:46:36.751 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:46:36.761 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:46:36.761 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@78caf23d, com.example.hexFoodieBack.entity.Restaurant@4 (truncated)...]
+09:46:36.763 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:46:46.821 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:46:46.828 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:46:46.838 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:46:46.838 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@d4e1567, com.example.hexFoodieBack.entity.Restaurant@74 (truncated)...]
+09:46:46.841 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:46:52.138 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:46:52.138 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:46:52.147 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:46:52.147 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@4eb3510b, com.example.hexFoodieBack.entity.Restaurant@4 (truncated)...]
+09:46:52.149 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:50:55.473 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:50:55.473 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:50:55.474 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:50:55.475 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:50:55.478 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@2d4ab46c]
+09:50:55.485 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:50:55.485 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:50:55.485 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:50:55.486 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:50:55.486 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@694f860, com.example.hexFoodieBack.entity.Restaurant@54 (truncated)...]
+09:50:55.487 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:52:59.641 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:52:59.641 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:52:59.642 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:52:59.642 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:52:59.644 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@4612d052]
+09:52:59.649 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:52:59.649 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:52:59.650 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:52:59.651 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:52:59.652 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@1c6c149f, com.example.hexFoodieBack.entity.Restaurant@5 (truncated)...]
+09:52:59.653 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:53:05.311 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+09:53:05.312 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+09:53:05.314 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@604d0a15]
+09:53:05.319 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:53:05.320 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+09:53:05.320 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:53:05.326 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:53:05.326 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:53:05.337 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:53:05.337 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@216ca920, com.example.hexFoodieBack.entity.Restaurant@7 (truncated)...]
+09:53:05.338 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:55:54.875 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:55:54.876 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:55:54.889 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:55:54.889 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@b47e439, com.example.hexFoodieBack.entity.Restaurant@6d (truncated)...]
+09:55:54.890 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:56:05.156 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:56:05.156 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:56:05.164 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:56:05.164 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@12bca28e, com.example.hexFoodieBack.entity.Restaurant@1 (truncated)...]
+09:56:05.165 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:56:19.029 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:56:19.030 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:56:19.041 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:56:19.041 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@9d0624a, com.example.hexFoodieBack.entity.Restaurant@61 (truncated)...]
+09:56:19.044 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:56:44.781 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:56:44.782 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:56:44.792 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:56:44.796 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@1eb565dc, com.example.hexFoodieBack.entity.Restaurant@3 (truncated)...]
+09:56:44.797 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:56:50.525 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:56:50.526 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:56:50.534 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:56:50.534 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@3f1047e7, com.example.hexFoodieBack.entity.Restaurant@6 (truncated)...]
+09:56:50.536 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+09:57:00.160 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+09:57:00.162 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+09:57:00.170 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+09:57:00.171 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@321c94e7, com.example.hexFoodieBack.entity.Restaurant@1 (truncated)...]
+09:57:00.172 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:28:47.667 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:28:47.668 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:28:47.670 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@5a504b65]
+10:28:47.676 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+10:28:47.676 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+10:28:47.677 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:28:47.677 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:28:47.678 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:28:47.689 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:28:47.689 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@32dab8a, com.example.hexFoodieBack.entity.Restaurant@72 (truncated)...]
+10:28:47.691 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:30:30.302 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+10:30:30.300 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:30:30.303 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+10:30:30.303 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:30:30.313 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:30:30.313 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@79dd117b, com.example.hexFoodieBack.entity.Restaurant@4 (truncated)...]
+10:30:30.314 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:30:30.313 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@2b6298b4]
+10:30:30.322 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:30:30.323 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:30:30.323 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:02.863 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:31:02.863 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:31:02.863 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+10:31:02.863 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+10:31:02.864 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@3e80b801]
+10:31:02.870 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:02.870 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:31:02.870 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:02.871 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:02.872 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@5fa3100b, com.example.hexFoodieBack.entity.Restaurant@6 (truncated)...]
+10:31:02.873 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:04.582 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:31:04.583 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:31:04.587 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+10:31:04.587 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+10:31:04.585 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@e44fc3d]
+10:31:04.596 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:04.596 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@1144bdbc, com.example.hexFoodieBack.entity.Restaurant@6 (truncated)...]
+10:31:04.597 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:04.603 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:04.603 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:31:04.604 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:10.017 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:31:10.018 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:31:10.019 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@73e474f3]
+10:31:10.021 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displaybyid", parameters={}
+10:31:10.022 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#displayById(RequestId)
+10:31:10.025 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:10.029 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:31:10.030 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:10.040 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RequestId@7cebe05c]
+10:31:10.050 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:10.050 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Restaurant@7277688f]
+10:31:10.052 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:34.888 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displaybyid", parameters={}
+10:31:34.889 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#displayById(RequestId)
+10:31:34.890 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RequestId@4ff242aa]
+10:31:34.895 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:34.895 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Restaurant@11395126]
+10:31:34.896 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:42.105 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:31:42.105 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:31:42.107 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@7a427b03]
+10:31:42.111 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:42.112 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:31:42.112 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:42.119 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+10:31:42.119 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+10:31:42.126 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:42.127 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@4715093b, com.example.hexFoodieBack.entity.Restaurant@4 (truncated)...]
+10:31:42.128 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:44.353 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:31:44.353 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:31:44.355 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@7333473a]
+10:31:44.360 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displaybyid", parameters={}
+10:31:44.361 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#displayById(RequestId)
+10:31:44.361 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RequestId@441b45b3]
+10:31:44.364 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:44.364 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:31:44.365 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:44.367 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:44.367 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Restaurant@57a18b06]
+10:31:44.368 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:52.018 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+10:31:52.019 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+10:31:52.023 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:31:52.023 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:31:52.025 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@51e8b656]
+10:31:52.027 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:52.027 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@4376aa98, com.example.hexFoodieBack.entity.Restaurant@2 (truncated)...]
+10:31:52.028 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:52.032 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:52.032 [http-nio-4900-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:31:52.032 [http-nio-4900-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:54.048 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:31:54.049 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:31:54.050 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@4c964513]
+10:31:54.051 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displaybyid", parameters={}
+10:31:54.051 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#displayById(RequestId)
+10:31:54.053 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RequestId@4289291]
+10:31:54.056 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:54.056 [http-nio-4900-exec-7] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:31:54.056 [http-nio-4900-exec-7] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:54.061 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:54.062 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Restaurant@549085da]
+10:31:54.063 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:57.863 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:31:57.864 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:31:57.865 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@66e1c285]
+10:31:57.872 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:57.872 [http-nio-4900-exec-2] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:31:57.874 [http-nio-4900-exec-2] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:31:57.877 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+10:31:57.877 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+10:31:57.888 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:31:57.888 [http-nio-4900-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@c1bbc75, com.example.hexFoodieBack.entity.Restaurant@47 (truncated)...]
+10:31:57.889 [http-nio-4900-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:32:02.656 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:32:02.657 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:32:02.658 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@24586a6b]
+10:32:02.663 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displaybyid", parameters={}
+10:32:02.664 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#displayById(RequestId)
+10:32:02.665 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RequestId@408712f2]
+10:32:02.669 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:32:02.670 [http-nio-4900-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:32:02.670 [http-nio-4900-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:32:02.671 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:32:02.671 [http-nio-4900-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Restaurant@5022db03]
+10:32:02.674 [http-nio-4900-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:32:04.851 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:32:04.852 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:32:04.854 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@58fc5197]
+10:32:04.863 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:32:04.864 [http-nio-4900-exec-9] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:32:04.864 [http-nio-4900-exec-9] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:32:04.870 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v1/superAdmin/display", parameters={}
+10:32:04.870 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#show()
+10:32:04.876 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:32:04.876 [http-nio-4900-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[com.example.hexFoodieBack.entity.Restaurant@6eea8d6b, com.example.hexFoodieBack.entity.Restaurant@1 (truncated)...]
+10:32:04.877 [http-nio-4900-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:32:06.901 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/superAdmin/displaybyid", parameters={}
+10:32:06.901 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.SuperAdminController#displayById(RequestId)
+10:32:06.902 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - POST "/v1/api/displaycart", parameters={}
+10:32:06.905 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.example.hexFoodieBack.controller.CartController#displaycart(EmailRequest)
+10:32:06.907 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.RequestId@60ce96da]
+10:32:06.916 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.RequestResponseBodyMethodProcessor - Read "application/json;charset=UTF-8" to [com.example.hexFoodieBack.request.EmailRequest@48f0644f]
+10:32:06.917 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:32:06.918 [http-nio-4900-exec-10] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [com.example.hexFoodieBack.entity.Restaurant@66a88f4f]
+10:32:06.919 [http-nio-4900-exec-10] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+10:32:06.922 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+10:32:06.922 [http-nio-4900-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Nothing to write: null body
+10:32:06.923 [http-nio-4900-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
